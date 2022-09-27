@@ -38,3 +38,17 @@ if __name__ == '__main__':
     integer_list = map(int, input().split())
     t = tuple(map(int,integer_list))
 print(hash(t))
+
+
+4.Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given n scores. Store them in a list and find the score of the runner-up.
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    arr=list(set(arr))
+    hs = max(arr)
+    try:
+        while True:
+            arr.remove(hs)
+    except:
+        print(max(arr))
