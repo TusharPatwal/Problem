@@ -2,7 +2,7 @@
 // Prime Number Program in Java
 import java.util.*;
 
-class problem01 {
+class Prime {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
