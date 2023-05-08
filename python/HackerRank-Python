@@ -1,7 +1,7 @@
-1.The provided code stub reads two integers from STDIN, a  and b. Add code to print three lines where:
-    1.The first line contains the sum of the two numbers.
-    2.The second line contains the difference of the two numbers (first - second).
-    3.The third line contains the product of the two numbers.
+# 1.The provided code stub reads two integers from STDIN, a  and b. Add code to print three lines where:
+#     1.The first line contains the sum of the two numbers.
+#     2.The second line contains the difference of the two numbers (first - second).
+#     3.The third line contains the product of the two numbers.
 
 if __name__ == '__main__':
     a = int(input())
@@ -15,8 +15,8 @@ print(y)
 print(z)
 
 
-2.Given a year, determine whether it is a leap year. If it is a leap year, return the Boolean True, otherwise return False.
-Note that the code stub provided reads from STDIN and passes arguments to the is_leap function. It is only necessary to complete the is_leap function.
+# 2.Given a year, determine whether it is a leap year. If it is a leap year, return the Boolean True, otherwise return False.
+# Note that the code stub provided reads from STDIN and passes arguments to the is_leap function. It is only necessary to complete the is_leap function.
 
 def is_leap(year):
     leap = False
@@ -31,7 +31,7 @@ year = int(input())
 print(is_leap(year))
 
 
-3.Given an integer, , and  space-separated integers as input, create a tuple, , of those  integers. Then compute and print the result of hash(t).
+# 3.Given an integer, , and  space-separated integers as input, create a tuple, , of those  integers. Then compute and print the result of hash(t).
 
 if __name__ == '__main__':
     n = int(input())
@@ -40,7 +40,7 @@ if __name__ == '__main__':
 print(hash(t))
 
 
-4.Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given n scores. Store them in a list and find the score of the runner-up.
+# 4.Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given n scores. Store them in a list and find the score of the runner-up.
 
 if __name__ == '__main__':
     n = int(input())
